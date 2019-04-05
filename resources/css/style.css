@@ -1,0 +1,23 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+/* LOGO SECTION */
+
+.logobanner {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.logobanner p {
+  text-transform: uppercase;
+  color: white;
+  font-size: 1rem;
+  padding: 0.66rem 0;
+}
+.logobanner img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
