@@ -105,3 +105,20 @@ html {
   color: white;
   padding: 0.5rem 0;
 }
+
+/* LOCATION SECTION */
+
+.final {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-hour {
+  width: 35%;
+}
+.location-hour .content {
+  background-color: black;
+  color: white;
+  padding: 1rem 0 1rem 2rem;
+  margin-top: 3rem;
+}
