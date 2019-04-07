@@ -88,16 +88,15 @@ html {
 }
 
 .productimg {
-    margin: 2rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .productimg img {
   max-height: 9rem;
   max-width: 8rem;
-  border: 1px solid green;
 }
 
 .productcontent {
@@ -116,9 +115,21 @@ html {
 .location-hour {
   width: 35%;
 }
+
 .location-hour .content {
   background-color: black;
   color: white;
   padding: 1rem 0 1rem 2rem;
-  margin-top: 3rem;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: left;
+  height: 5rem;
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
 }
