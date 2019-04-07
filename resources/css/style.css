@@ -78,12 +78,25 @@ html {
   text-align: center;
   width: 30%;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productimg .glasses {
+  align-self: center;
+}
+
+.productimg {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .productimg img {
-  height: 9rem;
-  max-width: 100%;
-  margin: 2rem 0;
+  max-height: 9rem;
+  max-width: 8rem;
   border: 1px solid green;
 }
 
