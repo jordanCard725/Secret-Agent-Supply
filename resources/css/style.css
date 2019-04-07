@@ -83,8 +83,8 @@ html {
   justify-content: space-between;
 }
 
-.productimg .glasses {
-  align-self: center;
+.cell .glasses {
+  margin-top: 4rem;
 }
 
 .productimg {
