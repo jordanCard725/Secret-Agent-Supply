@@ -54,15 +54,20 @@ html {
 
 /* NAV BANNER */
 
-.navbanner {
+.desknavbanner {
   background-color: firebrick;
   padding: 0.75rem;
   display: flex;
   justify-content: space-between;
 }
-.navbanner span a {
+
+.desknavbanner span a {
   color: white;
   text-decoration: none;
+}
+
+.tabnavbanner {
+  display: none;
 }
 
 /* PRODUCT GRID */
@@ -83,7 +88,7 @@ html {
   justify-content: space-between;
 }
 
-.cell .glasses {
+.cell .glassesimg {
   margin-top: 4rem;
 }
 
@@ -132,4 +137,84 @@ footer {
   margin-top: 4rem;
   display: flex;
   align-items: center;
+}
+
+/* Tablet MEDIA QUERY <1024px  */
+
+@media only screen and (max-width: 1024px) {
+  .mainbanner {
+    background-size: cover;
+  }
+  .desknavbanner {
+    display: none;
+  }
+
+  .tabnavbanner {
+    display: flex;
+    background-color: firebrick;
+    padding: 0.75rem;
+    justify-content: center;
+  }
+
+  .tabnavbanner span a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .productgrid .pen, .productgrid .watch {
+    width: 47%;
+  }
+
+  .productgrid .glasses {
+    display: none;
+  }
+}
+
+/* Phone MEDIA QUERY <470px */
+
+@media only screen and (max-width: 470px) {
+  .mainbanner {
+    background-size: cover;
+    height: 15rem;
+  }
+
+  .mainbanner .new {
+    width: 100%;
+    display: relative;
+    top: 10rem;
+  }
+  .mainbanner .new h3 {
+    font-size: 0.77rem;
+    font-weight: bold;
+    padding: 1rem 0 0.25rem 2rem;
+  }
+  .mainbanner .new h1 {
+    font-size: 1rem;
+    font-weight: bold;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+  }
+  .productgrid {
+    justify-content: center;
+  }
+
+  .productgrid .pen {
+    width: 90%;
+  }
+
+  .productgrid .watch {
+    display: none;
+  }
+
+  .final {
+    flex-direction: column;
+    align-items: center;
+  }
+  .location-hour {
+    width: 90%;
+    margin: 0 0 .5rem 0;
+  }
+  .footer p {
+    text-align: center;
+  }
 }
